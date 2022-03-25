@@ -2,11 +2,11 @@
 
 FROM python:3.9.2
 
-WORKDIR /app
+WORKDIR /data
 
 COPY test.txt requirements.txt
+RUN apt-get update
+RUN apt-get -y install graphviz
 RUN pip3 install -r requirements.txt
-
-WORKDIR /data
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
