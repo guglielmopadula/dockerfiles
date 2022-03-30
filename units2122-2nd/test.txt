@@ -47,6 +47,7 @@ prometheus-client==0.13.1
 prompt-toolkit==3.0.28
 ptyprocess==0.7.0
 pycparser==2.21
+pydot==1.4.2
 Pygments==2.11.2
 pyparsing==3.0.7
 pyro-api==0.1.1
