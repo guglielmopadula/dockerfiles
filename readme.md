@@ -3,7 +3,7 @@
 2. Clone:
 
 ```
-git clone https://github.com/guglielmopadula/dockerfiles
+git clone https://github.com/guglielmopadula/dockerfiles.git
 
 ```
 3. Enter the directory
