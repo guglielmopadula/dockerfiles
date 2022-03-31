@@ -7,8 +7,10 @@ git clone https://github.com/guglielmopadula/dockerfiles
 
 ```
 3. Enter the directory
-'''
-cd units2122-2nd
+
+```
+cd dockerfiles/units2122-2nd
+```
 
 2. build:
 ```
