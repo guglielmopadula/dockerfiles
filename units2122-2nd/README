@@ -1,5 +1,7 @@
-Enter the directory
-docker build --tag uni .          
+For building:
+docker build --tag uni .    
+
+For running:      
 docker run -v$PWD:/data -t -i  -p 8888:8888 uni
 
 
