@@ -17,7 +17,12 @@ cd dockerfiles/units2122-2nd
 docker build --tag uni .    
 ```
 
-3. run:
+3. enter your working directory (tipically home):
+```
+cd
+```
+
+4. run:
 ```
 docker run -v$PWD:/data -t -i  -p 8888:8888 uni
 ```
