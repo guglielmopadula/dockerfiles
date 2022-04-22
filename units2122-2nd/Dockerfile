@@ -9,4 +9,4 @@ RUN apt-get update
 RUN apt-get -y install graphviz pandoc nbconvert* texlive-xetex texlive-fonts-recommended texlive-plain-generic
 RUN pip3 install -r requirements.txt
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
