@@ -1,0 +1,12 @@
+pyro-ppl==1.8.1
+numpy
+sympy
+h5py
+argparse
+python-utils
+visdom
+jupyterlab
+scipy
+matplotlib
+torch
+
