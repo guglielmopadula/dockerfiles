@@ -68,8 +68,10 @@ prometheus-client==0.14.1
 prompt-toolkit==3.0.29
 psutil==5.9.0
 ptyprocess==0.7.0
+PuLP==2.6.0
 pure-eval==0.2.2
 pycparser==2.21
+pygem==2.0.0
 Pygments==2.12.0
 pyparsing==3.0.8
 pyro-api==0.1.2
@@ -84,6 +86,7 @@ scipy==1.8.0
 Send2Trash==1.8.0
 simpy==4.0.1
 six==1.16.0
+smithers==0.0.1
 sniffio==1.2.0
 soupsieve==2.3.2.post1
 stack-data==0.2.0
